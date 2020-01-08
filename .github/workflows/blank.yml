@@ -18,4 +18,5 @@ jobs:
     - name: Build image
       uses: elgohr/Publish-Docker-Github-Action@2.11
       with:
+        name: localgod/centos-pxe 
         dockerfile: Dockerfile
