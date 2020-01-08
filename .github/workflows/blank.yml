@@ -15,8 +15,6 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        - name: Publish Docker
-          - name: Publish Docker
     - name: Build image
       uses: elgohr/Publish-Docker-Github-Action@2.11
       with:
