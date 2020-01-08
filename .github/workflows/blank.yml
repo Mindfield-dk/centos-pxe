@@ -15,7 +15,9 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    - name: Docker Lint
-      uses: luke142367/Docker-Lint-Action@v1.0.0
+        - name: Publish Docker
+          - name: Publish Docker
+    - name: Build image
+      uses: elgohr/Publish-Docker-Github-Action@2.11
       with:
-         target: Dockerfile
+        dockerfile: Dockerfile
